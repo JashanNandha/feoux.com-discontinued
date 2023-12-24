@@ -1,6 +1,6 @@
 # Feoux - Content Sharing Platform (Discontinued)
 
-![1703431494900](feoux.png)
+![feoux](./feoux.png)
 
 Feoux was article sharing platform launched in 2017 where anyone can read and publish articles all around globe. But now its completely discontinued. Feoux.com domain is now trademark™ of feoux - IT solution company located in Punjab. Me as Developer of this platform want to share code with others so this dream could never stop. Anyone can use code and restart this platform by new name and new system. I will never mind. Enjoy haveing details of WebApp
 
