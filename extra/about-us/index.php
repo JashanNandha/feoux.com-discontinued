@@ -1,0 +1,434 @@
+<?php
+session_start();?><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>About Us - Feoux</title>   <link rel="icon" href="https://www.feoux.com/favicon.ico" type="image/x-icon"><link rel="icon" href="https://www.feoux.com/favicon.png" type="image/x-icon">
+<meta name="description" content="Feoux is article sharing platform where anyone can read and publish articles all around globe.">
+<meta name="keywords" content="article, articles, sharing, article sharing, knowledge, ideas, thinking, music, earn, earning, money">
+<meta name="author" content="Feoux">
+<link rel="stylesheet" href="https://www.feoux.com/font-awesome/css/all.css"><link rel="stylesheet" href="https://www.feoux.com/bootstrap/font/bootstrap-icons.css">
+    <meta name="twitter:title" content="Feoux-About Us">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Knowledge is infinite,Discover it with feoux">
+    <meta property="og:image" content="assets/img/m.png">
+    <meta name="twitter:description" content="Knowledge is infinite,Discover it with feoux">
+    <link rel="icon" type="image/png" sizes="1340x2329" href="assets/img/h.png">
+    <link rel="icon" type="image/png" sizes="1340x2329" href="assets/img/h.png">
+    <link rel="icon" type="image/png" sizes="1340x2329" href="assets/img/h.png">
+    <link rel="icon" type="image/png" sizes="1340x2329" href="assets/img/h.png">
+    <link rel="icon" type="image/png" sizes="1340x2329" href="assets/img/h.png">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="../../assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="../../assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="../../assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="alternate" type="application/rss+xml" title="Blogar &raquo; Feed" href="../../feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blogar &raquo; Comments Feed" href="../../comments/feed/" />
+<link rel='stylesheet' id='sb_instagram_styles-css'  href='../../assets/content/plugins/instagram-feed/css/sbi-styles.min.css?ver=2.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../../assets/includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='../../assets/includes/css/dist/block-library/theme.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='../../assets/content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='../../assets/content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=5.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='../../assets/content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-css'  href='../../assets/content/plugins/woocommerce/assets/css/select2.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='../../assets/content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='../../assets/content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.5.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='../../assets/content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.5.2' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='axil-fonts-css'  href='https://fonts.googleapis.com/css?family=Red+Hat+Display%3A0%2C400%3B0%2C500%3B0%2C700%3B0%2C900%3B1%2C400%3B1%2C500%3B1%2C700%3B1%2C900&#038;subset=latin%2Clatin-ext&#038;ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='../../assets/content/themes/blogar/assets/css/vendor/slick.css?ver=1.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-theme-css'  href='../../assets/content/themes/blogar/assets/css/vendor/slick-theme.css?ver=1.1.3' type='text/css' media='all' />
+
+<link rel='stylesheet' id='bootstrap-css'  href='../../assets/content/themes/blogar/assets/css/vendor/bootstrap.min.css?ver=1.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='axil-style-css'  href='../../assets/content/themes/blogar/assets/css/style.css?ver=1.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='axil-woocommerce-css'  href='../../assets/content/themes/blogar/assets/css/woocommerce.css?ver=1.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='blogar-style-css'  href='../../assets/content/themes/blogar/style.css?ver=5.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='../../assets/includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='../../assets/includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+
+<script type='text/javascript' src='../../assets/includes/js/zxcvbn-async.min.js?ver=1.0' id='zxcvbn-async-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/slick.min.js?ver=1.1.3' id='slick-js'></script>
+
+</head>
+
+<body class="page-template page-template-elementor_header_footer page page-id-247 wp-embed-responsive theme-blogar woocommerce-no-js page-home-tech-blog active-scroll-to-top  header-with-search elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-247">
+<div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+        <div id="my_switcher" class="my_switcher">
+        <ul>
+            <li>
+                <a href="javascript: void(0);" data-theme="light" class="setColor light">
+<span title="Light Mode"><i class="fas fa-sun"></i></span>
+</a>
+            </li>
+            <li>
+                <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+<span title="Dark Mode"><i class="fas fa-moon"></i></span>
+</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+    <!-- Start Header -->
+<header class="header axil-header header-style-1 header-light header-with-shadow   ">
+    <div class="header-wrap">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
+                <div class="logo">
+                    <a href="../../" title="feoux" rel="home">
+
+
+                        <img class="dark-logo" src="../../assets/content/themes/blogar/assets/images/logo/logo.png" alt="feoux">
+                        <img class="light-logo" src="../../assets/content/themes/blogar/assets/images/logo/logo.png" alt="feoux">
+
+
+                    </a>
+
+                </div>
+                <!-- End Logo-->
+            </div>
+
+            <div class="axil-mainmenu-withbar col-md-3 col-sm-3 col-3 col-xl-6">
+                <div class="mainmenu-wrapper d-none d-xl-block">
+                    <!-- Start Mainmanu Nav -->
+                    <nav class="mainmenu-nav d-none d-lg-block">
+                        <ul id="main-menu" class="mainmenu">
+                            <li id="menu-item-437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page has-dropdown"><a href="../../">Home</a>
+                            </li>
+                            <li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../../ask-now/">Ask Feoux</a>
+                            </li>
+                            <li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../../extra/Help/">Help</a>
+                            </li>
+                            <li id="menu-item-675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../about-us/" style="color:#1e88e5">About Us</a></li>
+                            <li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../../extra/contact-us/">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <!-- End Mainmanu Nav -->
+                </div>
+                <!-- Start Hamburger Menu  -->
+                <div class="hamburger-menu d-block d-xl-none text-right">
+                    <div class="hamburger-inner">
+                        <div class="icon"><i class="fas fa-bars"></i></div>
+                    </div>
+                </div>
+                <!-- End Hamburger Menu  -->
+            </div>
+
+
+            <div class="d-none d-sm-block col-lg-3 col-md-3 col-sm-3 col-3">
+                <div class="header-search text-right d-flex align-items-center justify-content-end">
+<form id="header-search-1" action="../../search/" method="GET" class="blog-search">
+                                        <div class="axil-search form-group">
+                                             <button type="submit" name="search" class="search-button"><i class="fas fa-search"></i></button>
+            <input type="text" name="input" title="Type to search Anything" class="form-control" placeholder="Search ..." autocomplete="off" value="" />
+           
+                                        </div>
+                                    </form>
+                                    <?php
+                                   
+                               if (!isset($_SESSION['username'])) {
+                                  echo'<ul class="metabar-block">
+                                  <li class="icon"><a href="../../my-account/" title="My Account"><span class="mini-cart"><i class="fas fa-user"></i></span></a></li>
+                              </ul>';
+                              } else {
+                                  require("../../dbcon.php");
+                                  $username = $_SESSION["username"];
+                                  $sql = "SELECT `id`,`avatar` FROM `user` WHERE `username`='$username' or email='$username'";
+                                  $res = mysqli_query($conn, $sql);
+                                  $count = mysqli_num_rows($res);
+                                  if ($count > 0) {
+                                      // Output the details within a table with Bootstrap styes
+                                      while ($data = mysqli_fetch_assoc($res)) {
+                                          $userid = $data['id'];
+                                          $avatar = $data['avatar'];
+                                          echo"<ul class='metabar-block'>
+                                          <li class='icon'><a href='../../my-account/' title='My Account' style='background:transparent'><span class='mini-cart'><img src='../../my-account/$avatar' alt='$username' title='$username' style='width:100%;height:100%;object-fit:cover;margin:none'></span></a></li>
+                                      </ul>";
+                                      }
+                                  }
+                              }
+                              ?>
+                                </div>
+                            </div>
+                            <div class="mobile-search-wrapper d-block d-sm-none col-lg-3 col-md-3 col-sm-3 col-3">
+                                <div class="header-search text-right d-flex align-items-center justify-content-end">
+                                    <div class="search-mobile-icon">
+                                        <button><i class="fas fa-search"></i></button>
+                                    </div>
+                                    <form id="header-search-1" action="../../search/" method="GET" class="blog-search large-mobile-blog-search">
+                                        <div class="axil-search-mobile form-group">
+                                             <button type="submit" name="search" class="search-button"><i class="fas fa-search"></i></button>
+            <input type="text" name="input" title="Type to search Anything" class="form-control" placeholder="Search ..." autocomplete="off" value="" />
+           
+                                        </div>
+                                    </form>
+                                    <?php
+                           
+                               if (!isset($_SESSION['username'])) {
+                                  echo'<ul class="metabar-block">
+                                  <li class="icon"><a href="../../my-account/" title="My Account"><span class="mini-cart"><i class="fas fa-user"></i></span></a></li>
+                              </ul>';
+                              } else {
+                                  require("../../dbcon.php");
+                                  $username = $_SESSION["username"];
+                                  $sql = "SELECT `id`,`avatar` FROM `user` WHERE `username`='$username' or email='$username'";
+                                  $res = mysqli_query($conn, $sql);
+                                  $count = mysqli_num_rows($res);
+                                  if ($count > 0) {
+                                      // Output the details within a table with Bootstrap styes
+                                      while ($data = mysqli_fetch_assoc($res)) {
+                                          $userid = $data['id'];
+                                          $avatar = $data['avatar'];
+                                          echo"<ul class='metabar-block'>
+                                          <li class='icon'><a href='../../my-account/' title='My Account' style='background:transparent'><span class='mini-cart'><img src='../../my-account/$avatar' alt='$username' title='$username' style='width:100%;height:100%;object-fit:cover;margin:none'></span></a></li>
+                                      </ul>";
+                                      }
+                                  }
+                              }
+                              ?>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+<!-- Start Header -->
+<!-- Start Mobile Menu Area  -->
+<div class="popup-mobilemenu-area">
+    <div class="inner">
+        <div class="mobile-menu-top">
+            <div class="logo">
+                <a href="../../" title="feoux" rel="home">
+
+
+
+                    <img class="dark-logo" src="../../assets/content/themes/blogar/assets/images/logo/logo.png" alt="feoux">
+
+                    <img class="light-logo" src="../../assets/content/themes/blogar/assets/images/logo/logo.png" alt="feoux">
+
+
+                </a>
+            </div>
+            <div class="mobile-close">
+                <div class="icon">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <nav class="menu-item">
+            <ul id="mobile-menu" class="mainmenu-item">
+                <li id="menu-item-437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page has-dropdown"><a href="../../">Home</a>
+                </li>
+                <li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../../ask-now/">Ask Feoux</a>
+                </li>
+                <li id="menu-item-280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../../extra/Help/">Help</a>
+                </li>
+                <li id="menu-item-675" style="color:#1e88e5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page active"><a style="color:#1e88e5" href="../about-us/">About Us</a></li>
+                <li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-675 megamenu-wrapper axil-post-type-page"><a href="../../extra/contact-us/">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- End Mobile Menu Area  -->
+<!-- Start Breadcrumb Area  -->
+<div class="axil-breadcrumb-area breadcrumb-style-1 bg-color-grey">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="inner">
+    <ul id="breadcrumbs" class="axil-breadcrumb liststyle d-flex"><li class="item-home"><a class="bread-link bread-home" href="./" title="Home">Home</a></li><li class="separator separator-home">  </li><li class="item-current item-795"><span class="bread-current bread-795">About</span></li></ul>     
+    <h1 class="page-title">About Us</h1>
+    
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- End Breadcrumb Area  -->
+<div class="main-wrapper">
+<div class="axil-section-gap bg-color-white">
+<div class="container">
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+<h2>Knowledge is infinite,Discover it with feoux</h2>
+<div class="entry-content">
+<p>The Knowledge is a concise and expertly curated digest that cuts through the noise. It makes readers smarter and better informed, feeling as if they have access to an unusually well- informed new friend with a sense of humour. It’s aimed at intelligent, busy professionals who are short of time and struggle to cope with the endless deluge of information from the Internet and social media, but want to feel in the know and up to speed with what is going on. Brought to you by truely, The Knowledge cuts through the noise to bring you the news and views that matter. Updated every day, our feoux editors aim to bring you most incisive comment, the most useful info, the funniest memes, and the podcasts and videos you need to know about. We bring you our special edition with everything from the best houses on the market to the best new articles. The Knowledge will make you smarter, faster.</p>
+<blockquote class="wp-block-quote"><i class="fas fa-quote-left bin"></i><p>In the event that we would have new information, we should get an entire universe of new questions. ― Susanne K. Langer</p></blockquote>
+<style>.bin {
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-style: normal;
+    font-size: 20px;
+    color: var(--color-gray);
+}</style>
+<blockquote class="wp-block-quote"><i class="fas fa-quote-left bin"></i><p>In the present condition, accumulating information eventually disintegrates your capacity. In the event that you know something significant, the best approach to get power is by really sharing it. ― Joseph Badaracco
+</p></blockquote>
+<p>Enjoy reading feoux articles and how-to's.Create your own content and Have fun!</p>
+</div>
+</article>
+</div>
+</div>
+
+<!-- Start Footer Area  -->
+<div class="axil-footer-area axil-default-footer axil-footer-var-1 footer-menu-active">
+            
+    <!-- Start Footer Top Area  -->
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="logo mb_sm--10">
+                                                    <a href="../../"
+                               title="feoux" rel="home">
+
+                                
+                                                                            <img class="dark-logo" src="../../assets/content/themes/blogar/assets/images/logo/logo.png" alt="feoux">
+                                                                                                                <img class="light-logo" src="../../assets/content/themes/blogar/assets/images/logo/logo.png" alt="feoux">
+                                    
+                                
+                            </a>
+                        
+                    </div> <!-- End Logo-->
+                </div>
+                <!-- Start Social Icon -->
+                                    <!-- Start Post List  -->
+                    <div class="col-lg-8 col-md-8">
+                        <div class="d-flex justify-content-start mt_sm--15 justify-content-md-end align-items-center flex-wrap">
+                                                            <h5 class="follow-title mb--0 mr--20">Follow us</h5>
+                            
+                            <ul class="social-icon color-tertiary md-size justify-content-start">
+                                <li><a class="facebook-f social-icon" href="https://www.facebook.com/feoux04" title="Facebook-f" target="_blank"><i class="fab fa-facebook-f"></i></a></li><li><a class="twitter social-icon" href="https://twitter.com/feoux1" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li><li><a class="linkedin-in social-icon" href="https://linkedin.com/" title="Linkedin-in" target="_blank"><i class="fab fa-linkedin-in"></i></a></li><li><a class="instagram social-icon" href="https://instagram.com/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Footer Top Area  -->
+                                <!-- End Social Icon -->
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Top Area  -->
+
+    <!-- Start Copyright Area  -->
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="copyright-left">
+                                                    <ul id="menu-footer-bottom-menu" class="mainmenu justify-content-start"><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7"><a href="../contact-us/">Contact Us</a></li>
+<li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8"><a href="../terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="../../ads/">Advertise with Us</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="../Help/">Help</a></li>
+</ul>                                            </div>
+                </div>
+                                    <div class="col-lg-4 mt_md--20 mt_sm--20">
+                        <div class="copyright-right text-left text-lg-right">
+                            <p>© <?php echo date("Y");?>. All rights reserved by <a href="https://feoux.com" target="_blank" rel="noopener">feoux.</a></p>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+    <!-- End Copyright Area  -->
+</div>
+
+        <!-- Start Back To Top  -->
+        <a id="backto-top">
+        <center><i class="fas fa-angle-up" style="color: white;margin-top: 30%;"></i></center></a>
+        <!-- End Back To Top  -->
+    <!-- Instagram Feed JS -->
+	<link rel='stylesheet' id='elementor-icons-css'  href='../../assets/content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='../../assets/content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='../../assets/content/plugins/elementor/assets/css/frontend.min.css?ver=3.3.1' type='text/css' media='all' />
+<style id='elementor-frontend-inline-css' type='text/css'>
+@font-face{font-family:eicons;src:url(../../assets/content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(../../assets/content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(../../assets/content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(../../assets/content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(../../assets/content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(../../assets/content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+</style>
+<link rel='stylesheet' id='elementor-post-12-css'  href='../../assets/content/uploads/elementor/css/post-12.css?ver=1627040536' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css'  href='../../assets/content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='../../assets/content/plugins/blogar-core/assets/js/element-scripts.js?ver=1.0' id='blogar-element-scripts-js'></script>
+<script type='text/javascript' src='../../assets/includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wp-polyfill-js-after'>
+( 'fetch' in window ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="../../assets/includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"http:\/\/axilthemes.com\/themes\/blogar\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../assets/content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2' id='contact-form-7-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/themes\/blogar\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/themes\/blogar\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/axilthemes.com\/themes\/blogar\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.5.2' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9' id='selectWoo-js'></script>
+<script type='text/javascript' src='../../assets/includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1' id='wp-hooks-js'></script>
+<script type='text/javascript' src='../../assets/includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' id='password-strength-meter-js-extra'>
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-admin/js/password-strength-meter.min.js?ver=5.7.2' id='password-strength-meter-js'></script>
+
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=5.5.2' id='wc-password-strength-meter-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.5.2' id='woocommerce-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/frontend/lost-password.min.js?ver=5.5.2' id='wc-lost-password-js'></script>
+
+<script type='text/javascript' src='../../assets/content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.5.2' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/modernizr.min.js?ver=1.1.3' id='modernizr-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/popper.js?ver=1.1.3' id='popper-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/tweenmax.min.js?ver=1.1.3' id='tweenmax-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/gsap.js?ver=1.1.3' id='gsap-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/commands.js?ver=1.1.3' id='axil-copylink-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/js.cookie.js?ver=1.1.3' id='axil-cookie-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/bootstrap.min.js?ver=1.1.3' id='bootstrap-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/main.js?ver=1.1.3' id='axil-main-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/js/vendor/jquery.style.switcher.js?ver=1.1.3' id='jquery-style-switcher-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/admin/js/navigation.js?ver=1.1.3' id='blogar-navigation-js'></script>
+<script type='text/javascript' src='../../assets/content/themes/blogar/assets/admin/js/skip-link-focus-fix.js?ver=1.1.3' id='blogar-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='../../assets/includes/js/wp-embed.min.js?ver=5.7.2' id='wp-embed-js'></script>
+
+<script type='text/javascript' src='../../assets/content/plugins/instagram-feed/js/sbi-scripts.min.js?ver=2.9.2' id='sb_instagram_scripts-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.3.1' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.3.1' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='../../assets/includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.3.1' id='share-link-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/js/frontend.min.js?ver=3.3.1' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='../../assets/content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.3.1' id='preloaded-modules-js'></script>
+</body>
+</body>
+
+</html>
