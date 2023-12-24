@@ -1,0 +1,125 @@
+/* ----------------------
+    Maintanence Area  
+------------------------*/
+
+
+
+.maintanence-area {
+    display: flex;
+    align-items: center;
+    height: 770px;
+    @media #{$md-layout} {
+        height: auto;
+        padding: 100px 0;
+    }
+    @media #{$sm-layout} {
+        height: auto;
+        padding: 100px 0;
+    }
+    .content {
+        .logo {
+            margin-bottom: 40px;
+            @media #{$md-layout} {
+                margin-bottom: 20px;
+            }
+            @media #{$sm-layout} {
+                margin-bottom: 20px;
+            }
+            a {
+                display: block;
+                img {
+                    max-height: 40px;
+                }
+            }
+        }
+        .title {
+            margin-bottom: 30px;
+            @media #{$md-layout} {
+                margin-bottom: 20px;
+            }
+            @media #{$sm-layout} {
+                margin-bottom: 20px;
+            }
+        }
+        h5 {
+            margin-bottom: 16px;
+        }
+        p {
+            margin-bottom: 40px;
+            @media #{$md-layout} {
+                margin-bottom: 20px;
+            }
+            @media #{$sm-layout} {
+                margin-bottom: 20px;
+            }
+        }
+        .inner {
+            margin-bottom: 34px;
+            @media #{$md-layout} {
+                margin-bottom: 20px;
+            }
+            @media #{$sm-layout} {
+                margin-bottom: 20px;
+            }
+        }
+        .subscription-form {
+            .form-group {
+                max-width: 470px;
+                input {
+                    background: #F0F2F5;
+                    color: #65676B;
+                }
+            }
+        }
+    }
+}
+.axil-privacy-area {
+    .section-title {
+        .title {
+            display: inline-block;
+            padding-bottom: 16px;
+            border-bottom: 3px solid var(--color-primary);
+            margin-bottom: 60px;
+        }
+    }
+}
+.maintanence-area .content .logo a img.light-logo {
+    display: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background-color: transparent !important;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+    background-color: var(--color-primary);
+    color: #fff !important;
+}
+
+.mini-cart {
+    font-size: inherit !important;
+}
+.woocommerce ul.cart_list li img, 
+.woocommerce ul.product_list_widget li img {
+    border-radius: 6px;
+}
+
+
+.widget_product_search .axil-search.form-group {
+    display: block;
+}
+.widget_product_search .axil-search.form-group input {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.woocommerce .widget_shopping_cart .total, 
+.woocommerce.widget_shopping_cart .total {
+    border-top: 1px double #ebe9eb;
+}
+
+.widget_shopping_cart_content p.woocommerce-mini-cart__total.total {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.widget_shopping_cart_content p.woocommerce-mini-cart__buttons.buttons {
+    margin-bottom: 0;
+}
+
